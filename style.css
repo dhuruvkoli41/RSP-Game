@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    background-color: rgb(32, 16, 134);
+    color: white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+}
+
+body{
+    background-color: cadetblue;
+    border: 10px solid darkblue;
+    padding: auto;
+    height: 610px;
+}
+
+.choice{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 165px;
+    width: 165px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 3rem;
+}
+.score-board{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    margin: 30px;
+    gap: 30px;
+}
+.choice:hover{
+    cursor: pointer;
+    background-color:#021429 ;
+}
+img:hover{
+  opacity: 0.4;
+}
+#you,#comp{
+    font-size: 50px;
+}
+/* .msg-container{
+ background-color: #021429;
+ color: antiquewhite;
+ height: 50px;
+ line-height: 50px;
+ font-size: 30px;
+ text-align: center;
+ padding: 10px;
+ width: 400px;
+align-items: center;
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+ border-radius: 30px; */
+ 
+
+ #msg{ background-color: #021429;
+    color: antiquewhite;
+    height: 50px;
+    line-height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+   align-items: center;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+    border-radius: 30px;
+    }
